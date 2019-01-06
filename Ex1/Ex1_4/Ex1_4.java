@@ -11,6 +11,8 @@ public class Ex1_4
         System.out.print("Please enter your height in inches: "); //ask for inches
         int y = input.nextInt();
         double inches = y;
+        //PT -- name these numbers:
+        //   final double POUNDS_PER_KG = 2.205;
         double kg = pounds / 2.205; //divide pounds by 2.205 to get kg
         double m = inches / 39.37; //divide inches by 39.37 to get m
         double BMI = kg/(m * m);
