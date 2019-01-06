@@ -9,6 +9,7 @@ public class Ex1_2 {
             Scanner scnr = new Scanner(System.in);
             x = scnr.nextInt();
             final double PI = 3.14;
+            //Just as before, you won't hit this since the loop won't allow it.
             if (x < 0)
                 System.out.print("Please enter a value that is not negative: ");
             else if (x == 0)
