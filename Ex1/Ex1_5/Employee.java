@@ -23,11 +23,13 @@ public class Employee {
     public String getBoss() {
         return boss;
     }
+    
+    //PT -- Consider overriding toString()
 
     public Employee() {
         ID = "Ext. 4664";
         name = "Pete Tucker";
-        hireDate = "I can't find the date, but you were hired in 2003";
+        hireDate = "I can't find the date, but you were hired in 2003"; //PT -- 9/1/2003
         pos = "Computer Science Professor";
         boss = "Martha Gady";
     }
