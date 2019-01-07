@@ -8,35 +8,55 @@ public class Employee {
     private String pos;
     private String boss;
 
-    public String getID() {
-        return ID;
+    String getID() {
+        return Employee.ID;
     }
-    public String getName() {
-        return name;
+    String getName() {
+        return Employee.name;
     }
-    public String getHireDate() {
-        return hireDate;
+    String getHireDate() {
+        return Employee.hireDate;
     }
-    public String getPos() {
-        return pos;
+    String getPos() {
+        return Employee.pos;
     }
-    public String getBoss() {
-        return boss;
+    String getBoss() {
+        return Employee.boss;
+    }
+
+    Void setID(String newID) {
+        ID = newID;
+    }
+
+    Void setName(String newName) {
+        name = newName;
+    }
+
+    Void setHireDate(String newHireDate) {
+        hireDate = newHireDate;
+    }
+
+    Void setPos(String newPos) {
+        pos = newPos;
+    }
+    
+    Void setBoss(String newBoss) {
+        boss = newBoss;
     }
 
     public Employee() {
-        ID = "Ext. 4664";
-        name = "Pete Tucker";
-        hireDate = "I can't find the date, but you were hired in 2003";
-        pos = "Computer Science Professor";
-        boss = "Martha Gady";
+        Employee.ID = "Ext. 4664";
+        Employee.name = "Pete Tucker";
+        Employee.hireDate = "I can't find the date, but you were hired in 2003";
+        Employee.pos = "Computer Science Professor";
+        Employee.boss = "Martha Gady"
     }
 
-    public Employee(String Ename, String Enumber, String Ehired, String Epos, String Eboss) {
-        ID = Enumber;
-        name = Ename;
-        hireDate = Ehired;
-        pos = Epos;
-        boss = Eboss;
+    public Employee(String Enumber, String Ename, String Ehired, String Epos, String Eboss) {
+        Employee.ID = Enumber;
+        Employee.name = Ename;
+        Employee.hireDate = Ehired;
+        Employee.pos = Epos;
+        Employee.boss = Eboss;
     }
 }
