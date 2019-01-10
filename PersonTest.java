@@ -4,6 +4,11 @@ import java.util.Random;
 
 public class PersonTest {
 
+    /** 
+    *Test Class for Person class.
+    *@author Daniel Tucker
+    *@version 1.2, January 8th 2019
+    */
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         Scanner scnr2 = new Scanner(System.in);

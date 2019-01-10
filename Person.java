@@ -1,7 +1,13 @@
-package cityproj;
 import java.util.Random;
 
 public class Person {
+
+    /** 
+    * This class models a person, it has a first and last name condensed into one string, an age, phone number, an ID, and a job member variable. The job variable is now obsolete with how the city and citytest classes work
+    * @author Daniel Tucker
+    * @version 1.1 January 7th 2019
+    * @depreciated int job
+    */
 
     protected String Name;
     protected int Age;
@@ -10,6 +16,10 @@ public class Person {
     protected int ID;
     protected int job;
 
+    /** 
+    * get and set functions for most member variables, and an unused birthday function to make someone one year older
+    * @depreciated public void Birthday()
+    */
     public String getName() {
         return Name;
     }
@@ -46,6 +56,9 @@ public class Person {
         ID = id;
     }
 
+    /**
+    *Constructor that takes no arguments
+    */
     public Person() {
         Name = firstNames[f.nextInt(20)] + " " + lastNames[l.nextInt(14)];
         Age = a.nextInt(4) + 18;
@@ -55,6 +68,12 @@ public class Person {
         
     }
 
+    /** 
+    *Constructor taking a String, int, String input
+    * @param N sets the name of the Person
+    * @param A sets the age of the Person
+    * @param P sets the phone number of the Person
+    */
     public Person(String N, int A, String P) {
         Name = N;
         Age = A;
@@ -70,6 +89,9 @@ public class Person {
      "Liz", "Sophie", "Emma", "Rebecca", "Katie", "Danielle", "Caitlin", "Meghan", "Meredith", "Sarah"};
     public String lastNames[] = {"Tucker", "Toney", "Udby", "Caird", "Sweet", "Parrish", "Shepard", "Pierce", "Ross", "Lizberg", "Littrell", "Perkins", "Devereaux", "Kunz"};
 
+    /**
+    * ints first, last, age, and phone are all unused
+    */
     public Random f = new Random();
     public Random l = new Random();
     public Random a = new Random();

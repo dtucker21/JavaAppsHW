@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class BuildingTest {
 
+    /**
+    *Test class for Building class.
+    *@author Daniel Tucker
+    *@version 1, January 7th 2019
+    */
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         String b2Name;
