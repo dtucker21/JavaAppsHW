@@ -1,4 +1,4 @@
-
+//PT -- missing javadoc. -2
 
 public class Person {
 
@@ -29,7 +29,7 @@ public class Person {
 
     public Person(String N, int A, String P) {
         Name = N;
-        Age = A;
+        Age = A;//PT -- validate age, phone number. -1
         phoneNum = P;
         ID = IDNUM;
     }
