@@ -1,4 +1,4 @@
-
+//PT -- missing javadoc. -2
 
 public class Kid extends Person {
 
@@ -16,6 +16,8 @@ public class Kid extends Person {
     }
 
     public Kid(String N, int A, String P, String C) {
+        //PT -- call the base constructor:
+        // super(N, A, C);
         Name = N;
         Age = A;
         phoneNum = P;
