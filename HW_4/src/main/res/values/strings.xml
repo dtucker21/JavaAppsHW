@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MobileRoller</string>
+    <string name="roll">Roll</string>
+    <string name="desc">Let\'s roll some dice!</string>
+</resources>
