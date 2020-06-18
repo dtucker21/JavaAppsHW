@@ -9,6 +9,8 @@ public class Ex1_3 {
         int result = 0;
         for (int i = 0; i < input.length(); i++) { //(character ASCII value - 48) * 10 ^ (length - index)
             int temp = 0;
+            //PT -- check to make sure you have a digit first. -2
+            //      if (input.charAt(i) >= '0 && input.charAt(i) <= '9')
             temp += input.charAt(i) - 48;
             result += temp * (int)Math.pow(10, input.length() - 1 - i);
         }
