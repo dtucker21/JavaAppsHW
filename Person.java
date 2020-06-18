@@ -41,7 +41,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        Age = age;
+        Age = age; //PT -- validate age and phone number. -2
     }
 
     public void Birthday() {
@@ -83,6 +83,8 @@ public class Person {
         Random rand = new Random();
         job = rand.nextInt(4);
     }
+    
+    //PT -- make these static
 
     //all of the first names are from BMAC people
     public String firstNames[] = {"Gerrit", "Devin", "Slater", "James", "Kyle", "Mitchel", "Chad", "Mason", "Casey", "Daniel",
