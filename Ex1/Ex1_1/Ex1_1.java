@@ -17,6 +17,8 @@ public class Ex1_1 {
                 break;
             }
             else {
+                //PT -- Because you won't get into this loop without a valid number, you don't need this.
+                // Probably this should be outside the loop. -1
                 System.out.println("Please enter a number between 10 and 100: ");
                 Scanner scnr2 = new Scanner(System.in);
                 int y = scnr2.nextInt();
