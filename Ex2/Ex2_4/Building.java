@@ -1,4 +1,4 @@
-
+//PT -- missing javadoc. -2
 
 public class Building {
 
@@ -12,6 +12,7 @@ public class Building {
     public void setAddress(String newAddress) {
         Address = newAddress;
         //I don't know how a building would change addresses but ok
+        //PT -- you don't need to allow this then?
     }
 
     public String getName() {
