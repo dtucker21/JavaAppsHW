@@ -1,3 +1,24 @@
+/*
+FEEDBACK
+
+Read from the file correctly: 18/20%
+Implement class hierarchy correctly: 20/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 7/15%
+Show specific shape properties correctly: 7/15%
+Well-structured, well-commented code: 12/15%
+
+
+Comments:
+  Good handling of file opening error
+  Parsing of the shapes is a bit off -- you get the substring of the substring, and you don't need to.
+  Shapes aren't getting added to list
+  Shape doesn't need to define toString, since that's defined in Object
+  Move file reading into separate class
+
+*/
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
